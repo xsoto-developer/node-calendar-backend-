@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno (contienen información sensible como claves de API)
+.env
+.env.production
+credentials.js
+
+# Salida de la carpeta de producción
+dist/
+build/
+
+# Archivos de configuración del editor de texto (opcionales, según el equipo de trabajo)
+.vscode/
+.idea/
+
+# Archivos de configuración de entorno y cache (según el sistema operativo)
+Thumbs.db      # Windows
+.cache/
+*.log          # Archivos de log
+*.pid          # Archivos de proceso
+*.seed         # Archivos de seed para bases de datos o configuraciones específicas
+npm-debug.log* # Logs de debug de npm
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de dependencia (en caso de tener múltiples archivos lock)
+package-lock.json
+yarn.lock
+
+# Carpetas de testing (en caso de generar reportes o salidas temporales)
+coverage/
+nyc_output/
+jest/
